@@ -7,11 +7,11 @@ assignees: ''
 
 ---
 
-Before opening:
+## Before opening:
 
 - [Search for duplicate or closed issues](https://github.com/alsoknownasdrew/remote-ok-php/issues)
 
-Bug reports must include:
+## Bug reports must include:
 
 - PHP version (currently PHP 7.3+ is required)
 - Expected behavior: what behavior are you expecting?
