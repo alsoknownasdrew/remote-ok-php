@@ -16,7 +16,7 @@ class Company
     private $location;
 
     /**
-     * @var string
+     * @var string|null
      */
     private $logoUrl;
 
@@ -47,9 +47,9 @@ class Company
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getLogoUrl(): string
+    public function getLogoUrl(): ?string
     {
         return $this->logoUrl;
     }
