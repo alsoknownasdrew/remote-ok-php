@@ -15,10 +15,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Code of conduct
 - Changelog
+- Bug report template
+- Pull request template
 
 ### Changed
 
-- Add contributors table
+- Add contributors table in readme
 - Add Code of conduct section in readme
 
 ## [0.0.2] - 2020-10-27
