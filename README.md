@@ -1,11 +1,13 @@
 # remote-ok-php
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Remoteok.io API PHP Client 
+Remoteok.io API PHP Client
 
 ## Installation
+
 Install the package through [Composer](http://getcomposer.org/).
 
 Run the Composer require command from the Terminal:
@@ -13,14 +15,13 @@ Run the Composer require command from the Terminal:
     composer require alsoknownasdrew/remote-ok-php
 
 ## Getting Started
+
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
 use Alsoknownasdrew\RemoteOK\ClientFactory;
-use Alsoknownasdrew\RemoteOK\Client;
 
-$clientFactory = new ClientFactory();
-$client = $clientFactory->create();
+$client = ClientFactory::create();
 ```
 
 ## Usage
@@ -36,7 +37,6 @@ $positions = $client->positions();
 ### Get position properties
 
 You can get the following properties from a Position object: company name, company logo URL, company location, creation date, description, position ID, is position original (boolean), slug, tags, title, URL.
-
 
 #### Company Name
 
@@ -61,7 +61,6 @@ Get the location of the company.
 ```php
 $position->getCompany()->getLocation();
 ```
-
 
 #### Creation Date
 
@@ -120,6 +119,7 @@ $position->getTitle();
 ```
 
 #### Position URL
+
 Get the full URL of the position posting on Remoteok.io.
 
 ```php
