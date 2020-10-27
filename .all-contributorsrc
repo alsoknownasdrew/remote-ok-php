@@ -5,6 +5,16 @@
   "imageSize": 100,
   "commit": false,
   "contributors": [
+  {
+      "login": "alsoknownasdrew",
+      "name": "Andriy",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19336615?v=4",
+      "profile": "https://github.com/alsoknownasdrew",
+      "contributions": [
+        "code",
+        "maintenance"
+      ]
+    },
     {
       "login": "raphaelz",
       "name": "Raphael",
