@@ -39,7 +39,7 @@ class Company
     }
 
     /**
-     * @return string
+     * @return string|null
      */
     public function getLocation(): ?string
     {
