@@ -5,7 +5,7 @@
   "imageSize": 100,
   "commit": false,
   "contributors": [
-  {
+    {
       "login": "alsoknownasdrew",
       "name": "Andriy",
       "avatar_url": "https://avatars0.githubusercontent.com/u/19336615?v=4",
@@ -21,7 +21,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/330184?v=4",
       "profile": "https://github.com/raphaelz",
       "contributions": [
-        "doc"
+        "doc",
+        "code"
       ]
     }
   ],

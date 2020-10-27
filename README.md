@@ -135,14 +135,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/alsoknownasdrew"><img src="https://avatars0.githubusercontent.com/u/19336615?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andriy</b></sub></a><br /><a href="https://github.com/alsoknownasdrew/remote-ok-php/commits?author=alsoknownasdrew" title="Code">💻</a> <a href="#maintenance-alsoknownasdrew" title="Maintenance">🚧</a></td>
-    <td align="center"><a href="https://github.com/raphaelz"><img src="https://avatars0.githubusercontent.com/u/330184?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Raphael</b></sub></a><br /><a href="https://github.com/alsoknownasdrew/remote-ok-php/commits?author=raphaelz" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/alsoknownasdrew"><img src="https://avatars0.githubusercontent.com/u/19336615?v=4" width="100px;" alt=""/><br /><sub><b>Andriy</b></sub></a><br /><a href="https://github.com/alsoknownasdrew/remote-ok-php/commits?author=alsoknownasdrew" title="Code">💻</a> <a href="#maintenance-alsoknownasdrew" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/raphaelz"><img src="https://avatars0.githubusercontent.com/u/330184?v=4" width="100px;" alt=""/><br /><sub><b>Raphael</b></sub></a><br /><a href="https://github.com/alsoknownasdrew/remote-ok-php/commits?author=raphaelz" title="Documentation">📖</a> <a href="https://github.com/alsoknownasdrew/remote-ok-php/commits?author=raphaelz" title="Code">💻</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-restore -->
+<!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
