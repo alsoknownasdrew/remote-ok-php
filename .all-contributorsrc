@@ -1,0 +1,34 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+  {
+      "login": "alsoknownasdrew",
+      "name": "Andriy",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19336615?v=4",
+      "profile": "https://github.com/alsoknownasdrew",
+      "contributions": [
+        "code",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "raphaelz",
+      "name": "Raphael",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/330184?v=4",
+      "profile": "https://github.com/raphaelz",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "remote-ok-php",
+  "projectOwner": "alsoknownasdrew",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
