@@ -43,7 +43,7 @@ class Position
     private $slug;
 
     /**
-     * @var string[]
+     * @var string[]|null
      */
     private $tags;
 
@@ -141,9 +141,9 @@ class Position
     }
 
     /**
-     * @return string[]
+     * @return string[]|null
      */
-    public function getTags(): array
+    public function getTags(): ?array
     {
         return $this->tags;
     }

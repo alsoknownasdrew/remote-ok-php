@@ -11,7 +11,7 @@ namespace Alsoknownasdrew\RemoteOK;
 class Company
 {
     /**
-     * @var string
+     * @var string|null
      */
     private $location;
 
@@ -21,7 +21,7 @@ class Company
     private $logoUrl;
 
     /**
-     * @var string
+     * @var string|null
      */
     private $name;
 
@@ -29,9 +29,9 @@ class Company
      * Company constructor.
      * @param string|null $location
      * @param string|null $logoUrl
-     * @param string $name
+     * @param string|null $name
      */
-    public function __construct(string $name, ?string $location, ?string $logoUrl)
+    public function __construct(?string $name, ?string $location, ?string $logoUrl)
     {
         $this->name = $name;
         $this->location = $location;
@@ -55,9 +55,9 @@ class Company
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getName(): string
+    public function getName(): ?string
     {
         return $this->name;
     }

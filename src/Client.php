@@ -81,7 +81,7 @@ class Client
         $positionsData = json_decode($response->getBody()->getContents(), true, 512, JSON_THROW_ON_ERROR);
         $positionsData = $this->removeLegalMessage($positionsData);
 
-        return array_map('self::createPosition', $positionsData);
+        return array_map([$this, 'createPosition'], $positionsData);
     }
 
     /**

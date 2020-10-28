@@ -16,18 +16,21 @@ class PositionFactory
      */
     public static function createFromArray(array $positionData): Position
     {
+        $createdAt = \DateTime::createFromFormat(DATE_ATOM, $positionData['date']);
+        \assert($createdAt instanceof \DateTimeInterface);
+
         return new Position(
             new Company(
-                $positionData['company'],
+                $positionData['company'] ?: null,
                 $positionData['location'] ?: null,
                 $positionData['company_logo'] ?: null
             ),
-            \DateTime::createFromFormat(DATE_ATOM, $positionData['date']),
+            $createdAt,
             $positionData['description'],
             $positionData['id'],
             $positionData['original'] ?? false,
             $positionData['slug'],
-            $positionData['tags'] ?? [],
+            $positionData['tags'] ?: null,
             $positionData['position'],
             $positionData['url']
         );
