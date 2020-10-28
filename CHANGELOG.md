@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bug report template
 - Pull request template
 - PHPStan static analysis
+- Travis CI integration
 
 ### Changed
 
