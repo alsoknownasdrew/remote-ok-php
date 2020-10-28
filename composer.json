@@ -25,5 +25,8 @@
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12.52"
+    },
+    "scripts": {
+        "static-check": "vendor/bin/phpstan analyse -c phpstan.neon"
     }
 }
