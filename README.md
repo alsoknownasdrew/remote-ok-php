@@ -126,10 +126,6 @@ Get the full URL of the position posting on Remoteok.io.
 $position->getUrl();
 ```
 
-## Code of Conduct
-
-This project adheres to a Contributor [Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project and its community, you are expected to uphold this code.
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -149,3 +145,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+### Contributing
+
+Contributions are welcome. Before proceeding, please read the [Code of Conduct](CODE_OF_CONDUCT.md) AND [CONTRIBUTING](CONTRIBUTING.md) guides, which contains information about contribution process.
+
+## Code of Conduct
+
+This project adheres to a Contributor [Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project and its community, you are expected to uphold this code.

@@ -25,7 +25,7 @@ class PositionFactory
             \DateTime::createFromFormat(DATE_ATOM, $positionData['date']),
             $positionData['description'],
             $positionData['id'],
-            $positionData['origin'] ?? false,
+            $positionData['original'] ?? false,
             $positionData['slug'],
             $positionData['tags'] ?? [],
             $positionData['position'],
