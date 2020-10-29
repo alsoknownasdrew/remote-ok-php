@@ -7,7 +7,7 @@ install:
 
 jobs:
   include:
-    - stage: "Tests"
+    - stage: "test"
       name: "Unit Tests"
       script: composer test-unit
     - script: composer static-check
