@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/alsoknownasdrew/remote-ok-php.svg?branch=main)](https://travis-ci.org/alsoknownasdrew/remote-ok-php)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Remoteok.io API PHP Client
@@ -138,6 +138,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/alsoknownasdrew"><img src="https://avatars0.githubusercontent.com/u/19336615?v=4" width="100px;" alt=""/><br /><sub><b>Andriy</b></sub></a><br /><a href="https://github.com/alsoknownasdrew/remote-ok-php/commits?author=alsoknownasdrew" title="Code">💻</a> <a href="#maintenance-alsoknownasdrew" title="Maintenance">🚧</a></td>
     <td align="center"><a href="https://github.com/raphaelz"><img src="https://avatars0.githubusercontent.com/u/330184?v=4" width="100px;" alt=""/><br /><sub><b>Raphael</b></sub></a><br /><a href="https://github.com/alsoknownasdrew/remote-ok-php/commits?author=raphaelz" title="Documentation">📖</a> <a href="https://github.com/alsoknownasdrew/remote-ok-php/commits?author=raphaelz" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/akshaythakare7"><img src="https://avatars3.githubusercontent.com/u/32819562?v=4" width="100px;" alt=""/><br /><sub><b>akshaythakare7</b></sub></a><br /><a href="https://github.com/alsoknownasdrew/remote-ok-php/commits?author=akshaythakare7" title="Documentation">📖</a></td>
   </tr>
 </table>
 
