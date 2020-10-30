@@ -2,31 +2,27 @@
 
 declare(strict_types=1);
 
-namespace Alsoknownasdrew\RemoteOK;
+namespace Alsoknownasdrew\RemoteOK\Company;
 
 /**
  * Class Company
+ *
  * @package Alsoknownasdrew\RemoteOK
  */
-class Company
+class Company implements CompanyInterface
 {
-    /**
-     * @var string|null
-     */
+    /** @var string|null */
     private $location;
 
-    /**
-     * @var string|null
-     */
+    /** @var string|null */
     private $logoUrl;
 
-    /**
-     * @var string|null
-     */
+    /** @var string|null */
     private $name;
 
     /**
      * Company constructor.
+     *
      * @param string|null $location
      * @param string|null $logoUrl
      * @param string|null $name

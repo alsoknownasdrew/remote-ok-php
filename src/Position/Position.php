@@ -2,64 +2,50 @@
 
 declare(strict_types=1);
 
-namespace Alsoknownasdrew\RemoteOK;
+namespace Alsoknownasdrew\RemoteOK\Position;
 
+use Alsoknownasdrew\RemoteOK\Company\Company;
+use Alsoknownasdrew\RemoteOK\Company\CompanyInterface;
 use DateTimeInterface;
 
 /**
  * Class Position
+ *
  * @package Alsoknownasdrew\RemoteOK
  */
-class Position
+class Position implements PositionInterface
 {
-    /**
-     * @var Company
-     */
+    /** @var CompanyInterface */
     private $company;
 
-    /**
-     * @var DateTimeInterface
-     */
+    /** @var DateTimeInterface */
     private $createdAt;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     private $description;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     private $id;
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     private $original;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     private $slug;
 
-    /**
-     * @var string[]|null
-     */
+    /** @var string[]|null */
     private $tags;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     private $title;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     private $url;
 
     /**
      * Position constructor.
-     * @param Company $company
+     *
+     * @param CompanyInterface $company
      * @param DateTimeInterface $createdAt
      * @param string $description
      * @param string $id
@@ -70,7 +56,7 @@ class Position
      * @param string $url
      */
     public function __construct(
-        Company $company,
+        CompanyInterface $company,
         DateTimeInterface $createdAt,
         string $description,
         string $id,
@@ -79,8 +65,7 @@ class Position
         ?array $tags,
         string $title,
         string $url
-    )
-    {
+    ) {
         $this->company = $company;
         $this->createdAt = $createdAt;
         $this->description = $description;
@@ -93,9 +78,9 @@ class Position
     }
 
     /**
-     * @return Company
+     * @return CompanyInterface
      */
-    public function getCompany(): Company
+    public function getCompany(): CompanyInterface
     {
         return $this->company;
     }

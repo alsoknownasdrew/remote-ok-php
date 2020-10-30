@@ -6,9 +6,9 @@ namespace Alsoknownasdrew\RemoteOK\Exception;
 
 /**
  * Class PositionsNotAvailableException
+ *
  * @package Alsoknownasdrew\RemoteOK\Exception
  */
 class PositionsNotAvailableException extends \RuntimeException
 {
-
 }
