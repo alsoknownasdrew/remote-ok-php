@@ -33,6 +33,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Emulator000",
+      "name": "Dario",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15048541?v=4",
+      "profile": "https://emulator000.github.io/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
