@@ -20,7 +20,7 @@ Run the Composer require command from the Terminal:
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-use Alsoknownasdrew\RemoteOK\ClientFactory;
+use Alsoknownasdrew\RemoteOK\Client\Factory\ClientFactory;
 
 $client = ClientFactory::create();
 ```

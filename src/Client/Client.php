@@ -2,48 +2,44 @@
 
 declare(strict_types=1);
 
-namespace Alsoknownasdrew\RemoteOK;
+namespace Alsoknownasdrew\RemoteOK\Client;
 
 use Alsoknownasdrew\RemoteOK\Exception\ClientException;
 use Alsoknownasdrew\RemoteOK\Exception\PositionsNotAvailableException;
+use Alsoknownasdrew\RemoteOK\Position\Factory\PositionFactory;
+use Alsoknownasdrew\RemoteOK\Position\PositionInterface;
 use Exception;
 use JsonException;
 use Psr\Http\Client\ClientExceptionInterface;
-use Psr\Http\Client\ClientInterface;
+use Psr\Http\Client\ClientInterface as PsrClientInterface;
 use Psr\Http\Message\RequestFactoryInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\UriFactoryInterface;
 
 /**
  * Class Client
+ *
  * @package Alsoknownasdrew\RemoteOK
  */
-class Client
+class Client implements ClientInterface
 {
-    private const BASE_URL = 'https://remoteok.io/api';
-
-    /**
-     * @var ClientInterface
-     */
+    /** @var PsrClientInterface */
     private $client;
 
-    /**
-     * @var RequestFactoryInterface
-     */
+    /** @var RequestFactoryInterface */
     private $requestFactory;
 
-    /**
-     * @var UriFactoryInterface
-     */
+    /** @var UriFactoryInterface */
     private $uriFactory;
 
     /**
      * Client constructor.
-     * @param ClientInterface $client
+     *
+     * @param PsrClientInterface $client
      * @param RequestFactoryInterface $requestFactory
      * @param UriFactoryInterface $uriFactory
      */
-    public function __construct(ClientInterface $client, RequestFactoryInterface $requestFactory, UriFactoryInterface $uriFactory)
+    public function __construct(PsrClientInterface $client, RequestFactoryInterface $requestFactory, UriFactoryInterface $uriFactory)
     {
         $this->client = $client;
         $this->requestFactory = $requestFactory;
@@ -51,7 +47,8 @@ class Client
     }
 
     /**
-     * @return Position[]
+     * @return PositionInterface[]
+     *
      * @throws Exception
      */
     public function positions(): array
@@ -73,7 +70,9 @@ class Client
 
     /**
      * @param ResponseInterface $response
-     * @return Position[]
+     *
+     * @return PositionInterface[]
+     *
      * @throws JsonException
      */
     private function getPositionsFromResponse(ResponseInterface $response): array
@@ -86,6 +85,7 @@ class Client
 
     /**
      * @param array $positionsData
+     *
      * @return array
      */
     private function removeLegalMessage(array $positionsData): array
@@ -97,9 +97,10 @@ class Client
 
     /**
      * @param array $position
-     * @return Position
+     *
+     * @return PositionInterface
      */
-    private function createPosition(array $position): Position
+    private function createPosition(array $position): PositionInterface
     {
         return PositionFactory::createFromArray($position);
     }
