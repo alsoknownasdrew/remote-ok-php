@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Travis CI integration
 - Setup unit tests
 - Interfaces for all classes
+- Positions list limit feature
 
 ### Changed
 
