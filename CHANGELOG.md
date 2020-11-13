@@ -21,11 +21,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - PHPStan static analysis
 - Travis CI integration
 - Setup unit tests
+- Interfaces for all classes
 
 ### Changed
 
-- Add contributors table in readme
-- Add Code of conduct section in readme
+- Added contributors table in readme
+- Added Code of conduct section in readme
+- Moved constants to interfaces, used interfaces instead of direct classes
 
 ## [0.0.2] - 2020-10-27
 
