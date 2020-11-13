@@ -1,19 +1,31 @@
-# remote-ok-php
-
-[![Build Status](https://travis-ci.org/alsoknownasdrew/remote-ok-php.svg?branch=main)](https://travis-ci.org/alsoknownasdrew/remote-ok-php)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+# Remote OK PHP Client
 
 Remoteok.io API PHP Client
 
+[![Build Status](https://travis-ci.org/alsoknownasdrew/remote-ok-php.svg?branch=main)](https://travis-ci.org/alsoknownasdrew/remote-ok-php)
+![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/alsoknownasdrew/remote-ok-php)
+[![License](https://poser.pugx.org/alsoknownasdrew/remote-ok-php/license)](//packagist.org/packages/alsoknownasdrew/remote-ok-php)
+[![Maintainability](https://api.codeclimate.com/v1/badges/cfa5360b2aefb9a0c4b8/maintainability)](https://codeclimate.com/github/alsoknownasdrew/remote-ok-php/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/cfa5360b2aefb9a0c4b8/test_coverage)](https://codeclimate.com/github/alsoknownasdrew/remote-ok-php/test_coverage)
+[![Latest Stable Version](https://poser.pugx.org/alsoknownasdrew/remote-ok-php/v)](//packagist.org/packages/alsoknownasdrew/remote-ok-php)
+[![Latest Unstable Version](https://poser.pugx.org/alsoknownasdrew/remote-ok-php/v/unstable)](//packagist.org/packages/alsoknownasdrew/remote-ok-php)
+![Packagist Downloads](https://img.shields.io/packagist/dm/alsoknownsdrew/remote-ok-php)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 ## Installation
 
-Install the package through [Composer](http://getcomposer.org/).
+## Requirements
 
-Run the Composer require command from the Terminal:
+- [PHP >= 7.3](https://getcomposer.org/)
+- [Composer Dependency Manager](https://getcomposer.org/)
 
-    composer require alsoknownasdrew/remote-ok-php
+Install the package through Composer: run the `composer require` command from the Terminal:
+
+```shell script
+composer require alsoknownasdrew/remote-ok-php
+```
 
 ## Getting Started
 
@@ -27,6 +39,10 @@ $client = ClientFactory::create();
 
 ## Usage
 
+Legal notice from the Remote OK API
+
+> By using Remote OK's API feed you legally agree to mention Remote OK as a source and link back to the job listing URL on Remote OK with a DIRECT link, no redirects please. Please don't use our Remote OK and r|OK logo without written permission as they're registered trademarks. And thanks for using Remote OK! ^__^
+
 ### Fetch positions
 
 Retrieve available positions from Remoteok.io.
@@ -35,9 +51,22 @@ Retrieve available positions from Remoteok.io.
 $positions = $client->positions();
 ```
 
+`$client->positions()` will return an array of `Position` objects.
+By default Remoteok.io API responds with a list of job positions from the last 30 days, but you can pass an optional limit argument to `Client::positions()` method
+
+```php
+$positions = $client->positions(5); // will return an array with the 5 most recent positions
+```
+
+Lets take a look on what's inside the client response by taking the first position from the array:
+
+```phph
+$position = $positions[0];
+```
+
 ### Get position properties
 
-You can get the following properties from a Position object: company name, company logo URL, company location, creation date, description, position ID, is position original (boolean), slug, tags, title, URL.
+You can get the following properties from a `Position` object: company name, company logo URL, company location, creation date, description, position ID, is position original (boolean), slug, tags, title, URL.
 
 #### Company Name
 
