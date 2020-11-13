@@ -17,9 +17,10 @@ interface ClientInterface
     public const BASE_URL = 'https://remoteok.io/api';
 
     /**
+     * @param int|null $limit
      * @return PositionInterface[]
      *
      * @throws Exception
      */
-    public function positions(): array;
+    public function positions(int $limit = null): array;
 }

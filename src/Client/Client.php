@@ -8,7 +8,6 @@ use Alsoknownasdrew\RemoteOK\Exception\ClientException;
 use Alsoknownasdrew\RemoteOK\Exception\PositionsNotAvailableException;
 use Alsoknownasdrew\RemoteOK\Position\Factory\PositionFactory;
 use Alsoknownasdrew\RemoteOK\Position\PositionInterface;
-use Exception;
 use JsonException;
 use Psr\Http\Client\ClientExceptionInterface;
 use Psr\Http\Client\ClientInterface as PsrClientInterface;
@@ -47,11 +46,12 @@ class Client implements ClientInterface
     }
 
     /**
+     * @param int|null $limit
      * @return PositionInterface[]
      *
-     * @throws Exception
+     * @throws JsonException
      */
-    public function positions(): array
+    public function positions(int $limit = null): array
     {
         $uri = $this->uriFactory->createUri(self::BASE_URL);
         $request = $this->requestFactory->createRequest('get', $uri);
@@ -65,20 +65,24 @@ class Client implements ClientInterface
             throw new PositionsNotAvailableException('Positions not available', $response->getStatusCode());
         }
 
-        return $this->getPositionsFromResponse($response);
+        return $this->getPositionsFromResponse($response, $limit);
     }
 
     /**
      * @param ResponseInterface $response
      *
+     * @param int|null $limit
      * @return PositionInterface[]
      *
      * @throws JsonException
      */
-    private function getPositionsFromResponse(ResponseInterface $response): array
+    private function getPositionsFromResponse(ResponseInterface $response, ?int $limit): array
     {
         $positionsData = json_decode($response->getBody()->getContents(), true, 512, JSON_THROW_ON_ERROR);
         $positionsData = $this->removeLegalMessage($positionsData);
+        if ($limit !== null) {
+            $positionsData = \array_slice($positionsData, 0, $limit);
+        }
 
         return array_map([$this, 'createPosition'], $positionsData);
     }
