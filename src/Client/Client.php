@@ -8,7 +8,6 @@ use Alsoknownasdrew\RemoteOK\Exception\ClientException;
 use Alsoknownasdrew\RemoteOK\Exception\PositionsNotAvailableException;
 use Alsoknownasdrew\RemoteOK\Position\Factory\PositionFactory;
 use Alsoknownasdrew\RemoteOK\Position\PositionInterface;
-use Exception;
 use JsonException;
 use Psr\Http\Client\ClientExceptionInterface;
 use Psr\Http\Client\ClientInterface as PsrClientInterface;
