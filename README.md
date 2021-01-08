@@ -1,7 +1,5 @@
 # Remote OK PHP Client
 
-Remoteok.io API PHP Client
-
 [![Build Status](https://travis-ci.org/alsoknownasdrew/remote-ok-php.svg?branch=main)](https://travis-ci.org/alsoknownasdrew/remote-ok-php)
 
 ![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/alsoknownasdrew/remote-ok-php)
@@ -39,7 +37,7 @@ $client = ClientFactory::create();
 
 ## Usage
 
-Legal notice from the Remote OK API
+Legal notice from the Remote OK API:
 
 > By using Remote OK's API feed you legally agree to mention Remote OK as a source and link back to the job listing URL on Remote OK with a DIRECT link, no redirects please. Please don't use our Remote OK and r|OK logo without written permission as they're registered trademarks. And thanks for using Remote OK! ^__^
 
@@ -52,13 +50,13 @@ $positions = $client->positions();
 ```
 
 `$client->positions()` will return an array of `Position` objects.
-By default Remoteok.io API responds with a list of job positions from the last 30 days, but you can pass an optional limit argument to `Client::positions()` method
+By default, Remoteok.io API responds with a list of job positions from the last 30 days, but you can pass an optional limit argument to `Client::positions()` method
 
 ```php
 $positions = $client->positions(5); // will return an array with the 5 most recent positions
 ```
 
-Lets take a look on what's inside the client response by taking the first position from the array:
+Let's take a look on what's inside the client response by taking the first position from the array:
 
 ```phph
 $position = $positions[0];
@@ -156,7 +154,11 @@ Get the full URL of the position posting on Remoteok.io.
 $position->getUrl();
 ```
 
-## Contributors ✨
+## Contributing
+
+Contributions are welcome. Before proceeding, please read the [Code of Conduct](CODE_OF_CONDUCT.md) AND [Contributing](CONTRIBUTING.md) guides, which contains information about contribution process.
+
+### Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -177,11 +179,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-### Contributing
-
-Contributions are welcome. Before proceeding, please read the [Code of Conduct](CODE_OF_CONDUCT.md) AND [CONTRIBUTING](CONTRIBUTING.md) guides, which contains information about contribution process.
-
-## Code of Conduct
-
-This project adheres to a Contributor [Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project and its community, you are expected to uphold this code.

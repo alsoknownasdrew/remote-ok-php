@@ -26,8 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Added contributors table in readme
-- Added Code of conduct section in readme
+- Improve README
 - Moved constants to interfaces, used interfaces instead of direct classes
 
 ## [0.0.2] - 2020-10-27
