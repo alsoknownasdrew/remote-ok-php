@@ -3,13 +3,13 @@
 Remoteok.io API PHP Client
 
 [![Build Status](https://travis-ci.org/alsoknownasdrew/remote-ok-php.svg?branch=main)](https://travis-ci.org/alsoknownasdrew/remote-ok-php)
+
 ![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/alsoknownasdrew/remote-ok-php)
-[![License](https://poser.pugx.org/alsoknownasdrew/remote-ok-php/license)](//packagist.org/packages/alsoknownasdrew/remote-ok-php)
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/cfa5360b2aefb9a0c4b8/maintainability)](https://codeclimate.com/github/alsoknownasdrew/remote-ok-php/maintainability)
+
 [![Test Coverage](https://api.codeclimate.com/v1/badges/cfa5360b2aefb9a0c4b8/test_coverage)](https://codeclimate.com/github/alsoknownasdrew/remote-ok-php/test_coverage)
-[![Latest Stable Version](https://poser.pugx.org/alsoknownasdrew/remote-ok-php/v)](//packagist.org/packages/alsoknownasdrew/remote-ok-php)
-[![Latest Unstable Version](https://poser.pugx.org/alsoknownasdrew/remote-ok-php/v/unstable)](//packagist.org/packages/alsoknownasdrew/remote-ok-php)
-![Packagist Downloads](https://img.shields.io/packagist/dm/alsoknownsdrew/remote-ok-php)
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
