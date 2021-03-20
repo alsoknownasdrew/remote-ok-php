@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Alsoknownasdrew\RemoteOKTest\Unit;
+namespace Alsoknownasdrew\RemoteOKTest\Unit\Position\Factory;
 
 use Alsoknownasdrew\RemoteOK\Company\CompanyInterface;
 use Alsoknownasdrew\RemoteOK\Position\Factory\PositionFactory;

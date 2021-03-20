@@ -1,0 +1,64 @@
+[
+  {
+    "legal": "API Terms of Service: Please link back to the URL on Remote OK and mention Remote OK as a source, so we get traffic back from your site. If you do not we'll have to suspend API access.\n\nPlease don't use the Remote OK logo without written permission as they're registered trademarks, please DO use our name Remote OK though\n\nThe API feed at /api is delayed by 24 hours so that Google knows it's Remote OK first posting the job to avoid duplicate content problems, if you'd like to advertise or pay for instant API access for all remote jobs (minimum budget $10k/mo), contact @remoteok on Twitter.",
+    "explanation": "You can request jobs with a specific tag with ?tag= parameter, like https://remoteOK.io/api?tag=php or multiple with ?tags= parameter, like https://remoteOK.io/api?tags=php,js,css Good luck!"
+  },
+  {
+    "slug": "103113-remote-frontend-developer-oviavo",
+    "id": "103113",
+    "epoch": "1616060844",
+    "date": "2021-03-18T09:47:24+00:00",
+    "company": "OVIAVO",
+    "company_logo": "https://remoteok.io/assets/jobs/8efa77b81f982c0f75b7f7306fae3fc71616062632.jpg",
+    "position": "Frontend Developer",
+    "tags": [
+      "front end",
+      "dev",
+      "digital nomad"
+    ],
+    "logo": "https://remoteok.io/assets/jobs/8efa77b81f982c0f75b7f7306fae3fc71616062632.jpg",
+    "description": "<p>OVIAVO is a comprehensive fertility benefits platform that helps employers attract &amp; retain top talent while tackling diversity &amp; inclusion. With OVIAVO, companies can support their employees with fertility and family planning benefits - including consultation, access to clinics, and treatments (i.e. egg freezing or IVF) or adoption - subsidized by the company, but safe and confidential. We educate employees, so they understand their options - a position that empowers them to be proactive rather than reactive.</p><br /><p>We believe that everyone should have the same chances to become a parent &ndash; no matter the age, gender, sexual orientation, marital status or financial means.</p><br /><br /><p><strong>Tasks</strong></p><br /><br /><p>We're looking to find a passionate frontend developer who gets excited about building multiple state of the art and user-centric SPAs in React.</p><br /><ul><br /><li>Implement new features together with the product team</li><br /><li>Be a pragmatic hands-on frontend developer who also loves continuously improving the maturity of our React apps</li><br /><li>You love to work super closely with UX and backend specialists to find the best trade-offs in terms of technology and user experience</li><br /></ul><br /><br /><p><strong>Requirements</strong></p><br /><br /><p><strong>You Should Have</strong></p><br /><ul><br /><li>The ability to jump into a new codebase</li><br /><li>You are proficient with things like React, Typescript and GraphQL</li><br /><li>You are comfortable to work in a co-creative environment with direct communication, feedback and flat structures</li><br /><li>You appreciate a good sense of humour in the team</li><br /><li>You should be an EU citizen or eligible to work in Germany</li><br /><li>You are willing to move to Berlin in the midterm</li><br /></ul><br /><p><strong>It'd Be Nice If You Had</strong></p><br /><ul><br /><li>A desire to write tests</li><br /><li>The ability to translate feature requirements into technical requirements</li><br /></ul><br /><p><strong>How we work</strong></p><br /><p>Interacting with other developers, designers and product managers is very much part of our day-to-day, so communication skills are vital. We are looking for &ldquo;doers&rdquo; who can apply their engineering skills to their task and take the responsibility for it.</p><br /><br /><p><strong>Benefits</strong></p><br /><br /><ul><br /><li>We give shares to all our full time employees. This means you profit from our success.</li><br /><li>In our product team we live up to our understanding of agile, user-centric, lean and continuous improvement. We don't hide behind these terms to justify chaotic planning, unrealistic expectations and autocratic decision-making</li><br /><li>Genuine empowerment: We believe that our platform makes a positive difference in the lives of all people, especially for women and LGBTQ+</li><br /><li>We have just been successfully financed and have strong investors on our side</li><br /><li>We live a direct, open and appreciative culture</li><br /></ul><br /><br /><br /><p>You want to be part of this success story? We are looking forward to receiving your online application even if your profile doesn&rsquo;t match the description 100%.</p><br /><p>At OVIAVO, we are committed to building an environment where our teams feel included, valued, and heard. Our belief is that a strong commitment to diversity and inclusion is a part of our success. We strongly encourage applications from indigenous people, racialized people, people with disabilities, people from gender and sexually diverse communities and/or people with intersectional identities.</p>",
+    "location": "",
+    "url": "https://remoteOK.io/remote-jobs/103113-remote-frontend-developer-oviavo",
+    "apply_url": "https://remoteOK.io/l/103113"
+  },
+  {
+    "slug": "103111-remote-senior-backend-developer-emerchantpay",
+    "id": "103111",
+    "epoch": "1616059568",
+    "date": "2021-03-18T09:26:08+00:00",
+    "company": "emerchantpay",
+    "company_logo": "https://remoteok.io/assets/jobs/643745db6e689da7e28f834c7dc46dfe1616062601.png",
+    "position": "Senior Backend Developer",
+    "tags": [
+      "dev",
+      "senior",
+      "backend",
+      "digital nomad"
+    ],
+    "logo": "https://remoteok.io/assets/jobs/643745db6e689da7e28f834c7dc46dfe1616062601.png",
+    "description": "<p>Responsibilities:<br><br>&bull; Designing and implementing complex workflows, APIs, and UI backends for payment platforms<br>&bull; Performing TDD/BDD using various tools like RSpec<br>&bull; Take part in scaling highly available payment services (99.99% uptime)<br><br>Requirements:<br><br>&bull; 3-4+ years using Ruby and Ruby on Rails<br>&bull; Database experience with MySQL and/or PostgreSQL<br>&bull; Experience in JavaScript, jQuery<br>&bull; Comfortable with TDD/BDD practices, RSpec<br><br>Bonus points for:<br><br>&bull; Experience in building APIs using latest standards<br>&bull; Experience with JavaScript frameworks like Ember, Angular, React<br>&bull; Experience with Redis<br>&bull; OpenSSL, mod_security, general security knowledge<br>&bull; Linux and devops skills with AWS, Puppet, Chef, Ansible, etc<br>&bull; Previous experience in the payment industry<br><br>Our offer:<br><br>&bull; Fast-growing payment company<br>&bull; Excellent working conditions, casual atmosphere, and state-of-the-art hardware<br>&bull; Modern, challenging, constantly growing business<br>&bull; Excellent remuneration package &minus;in the top 10% of the industry<br>&bull; Professional development - books, trainings, etc.<br>&bull; Team buildings and fun activities<br><br>If you are interested, please apply with your CV in English.<br><br>Only short-listed candidates will be contacted.<br><br>Personal data of the applicants will be processed in strict confidentiality by emerchantpay Ltd., UIC 175117520 solely for the purposes of selection and recruitment and will not be transferred to other data controllers unless required by law. Applicants provide their personal data on a voluntary basis and will have the right to access and correct their personal data within a reasonable time upon filing a written request.</p>",
+    "location": "",
+    "url": "https://remoteOK.io/remote-jobs/103111-remote-senior-backend-developer-emerchantpay",
+    "apply_url": "https://remoteOK.io/l/103111"
+  },
+  {
+    "slug": "103110-remote-backend-developer-videoslots",
+    "id": "103110",
+    "epoch": "1616058972",
+    "date": "2021-03-18T09:16:12+00:00",
+    "company": "Videoslots",
+    "company_logo": "https://remoteok.io/assets/jobs/d562c4fa0abaffe77cf7ddd24bd986ec1616062591.jpg",
+    "position": "Backend Developer",
+    "tags": [
+      "dev",
+      "backend",
+      "digital nomad"
+    ],
+    "logo": "https://remoteok.io/assets/jobs/d562c4fa0abaffe77cf7ddd24bd986ec1616062591.jpg",
+    "description": "<p><strong>Who are Videoslots?</strong></p><br /><p>We were born in 2011 as a result of a handful of entrepreneurs who not only had a knack for entertaining others but also an affinity with the igaming industry. They teamed up and went about building an industry leader, setting the bar to an all-new high. Now in just under nine years we now offer over 4,000 games from 134 different game providers and we&rsquo;re set to keep on growing! Naturally, we can't do all of this as well as all the exciting things we have lined up for the years to follow without the living legends that make our business the success it is today.</p><br /><br /><br /><p><strong>What will you be doing?</strong></p><br /><p>As a Backend Developer, you will be working on our in-house projects: designing features, writing code, performing code reviews, solving problems, tracking down bugs and delivering stable and well written solutions.</p><br /><p>You will form part of a cross functional development team where the team owns and drives the continuous improvement of our products using agile methodologies.</p><br /><p>Our backend is powered by a LEMP stack, GraphQL and we rely on Vue.js for our frontend. Other technologies we work with are LXC, Redis, Cassandra, ElasticSearch and Hadoop to mention a few. We are inherently a curious team and are always on the lookout for new technologies which could potentially be incorporated in our stack.</p><br /><p>You will:</p><br /><ul><br /><li>Design and develop new Backend features</li><br /><li>Perform functional requirements analysis</li><br /><li>Write high quality code and documentation</li><br /><li>Work closely with other developers, QA and product teams</li><br /><li>Apply analytical skills and be committed to quality</li><br /><li>Help track requests, issues, work progress and any other changes using our project management tools</li><br /><li>Provide estimates and technical documentation on request</li><br /><li>Write code with performance, reliability and maintainability in mind</li><br /><li>Manage individual project priorities, deadlines and deliverables</li><br /><li>Work in collaboration with external partners when required</li><br /><li>Manage code changes using our version control system</li><br /><li>Perform code reviews</li><br /></ul><br /><br /><br /><p><strong>Who are you?</strong></p><br /><ul><br /><li>You have experience in a comparable software development role, and</li><br /><li>You master PHP as a programming language (min 3 years experience)</li><br /><li>You have good knowledge of REST or GraphQL web services</li><br /><li>You are proficient with development in Linux environments</li><br /><li>You care about software quality, you care about software engineering and you want to make a difference</li><br /><li>You have good attention to detail</li><br /><li>You can work with minimal supervision</li><br /><li>You have a good command of both verbal and written English Proven Laravel experience would be considered as an advantage</li><br /><li>Experience in iGaming would be considered an advantage</li><br /><li>Having a degree in Information Technology or another related field would be considered an advantage</li><br /></ul><br /><br /><br /><p><strong>What do we offer?</strong></p><br /><p>Apart from our vibrant and sunny offices, and rock-star teams here is what we offer you:</p><br /><ul><br /><li>Competitive salary</li><br /><li>Private health insurance</li><br /><li>Birthday leave</li><br /><li>Additional marriage leave</li><br /><li>Additional paternity leave</li><br /><li>5 days of your sick leave to care for your sick child</li><br /><li>1 volunteer day</li><br /><li>Fexible start and finish times (except for teams who work shifts)</li><br /><li>Free transport home for late night shifts</li><br /><li>Refer a friend bonus</li><br /><li>Wellness allowance</li><br /><li>Professional development support</li><br /><li>Department team building activities</li><br /><li>Monthly get-togethers and activities</li><br /><li>Wednesday and Friday Breakfasts</li><br /><li>Daily fresh fruit, tea and coffee</li><br /><li>Party tickets and free beach club access</li><br /><li>Relocation package and assistance</li><br /><li>Company loyalty trip</li><br /></ul><br /><br /><br /><p>Do you think that you could be the ONE we are looking for to fill this exciting role? If your answer is YESSS, do not hesitate to APPLY! We are excited to meet you for an interview and get to know you better.</p>",
+    "location": "",
+    "url": "https://remoteOK.io/remote-jobs/103110-remote-backend-developer-videoslots",
+    "apply_url": "https://remoteOK.io/l/103110"
+  }
+]
