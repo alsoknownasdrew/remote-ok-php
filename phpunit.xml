@@ -25,7 +25,7 @@
             <directory suffix=".php">src/Exception</directory>
         </exclude>
         <report>
-            <text outputFile="php://stdout"/>
+            <clover outputFile="clover.xml"/>
         </report>
     </coverage>
 </phpunit>
