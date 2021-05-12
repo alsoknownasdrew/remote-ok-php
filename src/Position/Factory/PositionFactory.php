@@ -36,7 +36,7 @@ class PositionFactory implements PositionFactoryInterface
             $positionData[self::ID],
             $positionData[self::ORIGINAL] ?? false,
             $positionData[self::SLUG],
-            $positionData[self::TAGS] ?: null,
+            $positionData[self::TAGS] ?? null,
             $positionData[self::POSITION],
             $positionData[self::URL]
         );
