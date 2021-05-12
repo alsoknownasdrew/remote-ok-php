@@ -1,16 +1,7 @@
 # Remote OK PHP Client
 
 [![Build Status](https://travis-ci.org/alsoknownasdrew/remote-ok-php.svg?branch=main)](https://travis-ci.org/alsoknownasdrew/remote-ok-php)
-
 ![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/alsoknownasdrew/remote-ok-php)
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/cfa5360b2aefb9a0c4b8/maintainability)](https://codeclimate.com/github/alsoknownasdrew/remote-ok-php/maintainability)
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/cfa5360b2aefb9a0c4b8/test_coverage)](https://codeclimate.com/github/alsoknownasdrew/remote-ok-php/test_coverage)
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Installation
 
