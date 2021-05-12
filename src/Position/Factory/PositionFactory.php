@@ -27,9 +27,9 @@ class PositionFactory implements PositionFactoryInterface
 
         return new Position(
             new Company(
-                $positionData[self::COMPANY] ?: null,
-                $positionData[self::LOCATION] ?: null,
-                $positionData[self::COMPANY_LOGO] ?: null
+                $positionData[self::COMPANY] ?? null,
+                $positionData[self::LOCATION] ?? null,
+                $positionData[self::COMPANY_LOGO] ?? null
             ),
             $createdAt,
             $positionData[self::DESCRIPTION],
