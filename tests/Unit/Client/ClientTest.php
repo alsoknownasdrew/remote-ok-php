@@ -25,21 +25,15 @@ class ClientTest extends TestCase
     /** @var MockObject|ClientInterface */
     private $httpClientMock;
 
-    /** @var MockObject|RequestFactoryInterface */
-    private $requestFactoryMock;
-
-    /** @var MockObject|UriFactoryInterface */
-    private $uriFactoryMock;
-
     protected function setUp(): void
     {
         $this->httpClientMock = $this->createMock(ClientInterface::class);
-        $this->requestFactoryMock = $this->createMock(RequestFactoryInterface::class);
-        $this->uriFactoryMock = $this->createMock(UriFactoryInterface::class);
+        $requestFactoryMock = $this->createMock(RequestFactoryInterface::class);
+        $uriFactoryMock = $this->createMock(UriFactoryInterface::class);
         $this->client = new Client(
             $this->httpClientMock,
-            $this->requestFactoryMock,
-            $this->uriFactoryMock
+            $requestFactoryMock,
+            $uriFactoryMock
         );
     }
 

@@ -1,3 +1,7 @@
+env:
+  global:
+    - CC_TEST_REPORTER_ID=7200f3ac9aab067d6a3c75ddf45f1cadbfb0ee1f9ef902f4e2d005a2511c5745
+    - GIT_COMMITTED_AT=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git log -1 --pretty=format:%ct; else git log -1 --skip 1 --pretty=format:%ct; fi)
 language: php
 php:
   - 7.3
@@ -5,10 +9,17 @@ php:
 install:
   - composer install
 
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reportertestCreatePositionWithoutOptionalData
+  - ./cc-test-reporter before-build
+
 jobs:
   include:
     - stage: "test"
       name: "Unit Tests"
-      script: composer test-unit
+      script:
+        - composer test-unit
+        - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT; fi
     - script: composer static-check
       name: "Static analysis"
